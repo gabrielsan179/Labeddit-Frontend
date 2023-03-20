@@ -31,15 +31,19 @@ o link abaixo irá direciona-lo para o repositorio que foi desenvolvido a API.
 ## Layout
 
 página para cadastrar-se
+
 ![signup page](./labeddit/assets/signupPage.jpg)
 
-página para logar-se
+página para logar-
+
 ![login page](./labeddit/assets/loginPage.jpg)
 
 página para postar
+
 ![login page](./labeddit/assets/postPage.jpg)
 
 página para comentar
+
 ![login page](./labeddit/assets/commentPage.jpg)
 
 ## Demonstração
