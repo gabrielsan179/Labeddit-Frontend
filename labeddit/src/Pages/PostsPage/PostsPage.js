@@ -60,7 +60,10 @@ const PostsPage = () => {
         <ButtonPost src={post} alt="button post" onClick={()=>createPost()} /> 
         <Line src={line} alt="divisor" />
         {waiting ? 
-        postList?.map((post) => {
+        postList?.sort((postA, postB) => {
+          return postA.updatedAt < postB.updatedAt ? 1 : -1
+        })
+        .map((post) => {
           return <CardPost
           key={post.id}
           post={post}

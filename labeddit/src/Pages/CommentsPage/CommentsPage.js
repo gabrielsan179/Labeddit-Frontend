@@ -70,7 +70,10 @@ const CommentsPage = () => {
         <ButtonComment src={comment} alt="comment" onClick={()=>createComment()} />
         <Line src={line} alt="divisor" />
         {waiting ?
-        commentList?.allComments?.map((comment)=> {
+        commentList?.allComments?.sort((commentA, commentB) => {
+          return commentA.updatedAt < commentB.updatedAt ? 1 : -1
+        })
+        .map((comment)=> {
           return <CardComment
             key={comment.id}
             comment={comment}
