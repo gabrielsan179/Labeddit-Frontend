@@ -2,7 +2,8 @@
 ![Labedddit](./labeddit/src/Logos/logoWithName.png)
 
 Esse é um projeto desenvolvido em dois repositórios. Neste repositório é possível encontrar toda estrutura de frontend do projeto, que se trata de uma rede social onde os usuários podem postar textos e reagia as postagens de outros usuários.
-Projeto desnvolvido com foco em um design de app mobile first
+
+Projeto desenvolvido com foco em um design de app mobile first
 
 ## Indice
 - <a href="#funcionalidades-do-projeto">Funcionalidades do projeto</a>
